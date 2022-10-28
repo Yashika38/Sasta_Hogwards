@@ -1,0 +1,166 @@
+body{
+  margin: 0;
+}
+
+/************************************************FIRST START**********************************************************/
+
+.top{
+  height:100vh;
+  background-color:#B1D7B4;
+  background-image: url("https://img.freepik.com/free-vector/pastel-ombre-background-pink-purple_53876-120750.jpg?w=2000");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+h1{
+  text-align: center;
+  color: #A10035;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Qwitcher Grypen', cursive;
+  font-size: 90px;
+}
+
+.h3{
+  margin-top: 0;
+  text-align: center;
+  color: #A10035;
+  font-size: 20px;
+}
+
+.head1{
+  display: flex;
+  flex-direction: column;
+  padding: 12%;
+
+}
+
+.social{
+  margin-left: 0%;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
+    padding-right: 5%;
+}
+
+.icons{
+
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 45%;
+    padding-top: 10%;
+}
+
+.abc{
+  width: 50px;
+    height: 50px;
+    margin-top: 25%;
+    margin-right: 2%;
+}
+
+/*
+.icon{
+  border: 1px solid black;
+  width: 5%;
+  height: 10vh;
+  background-image: url("D:\Atom Files\CSS\chidiya.png");
+  position: absolute;
+  left: 40%;
+  border-radius: 50px;
+  bottom: 3%;
+}
+
+.iconicon{
+  border: 1px solid black;
+  width: 5%;
+  height: 10vh;
+  position: absolute;
+  left: 50%;
+  border-radius: 50px;
+  bottom: 3%;
+}
+
+.iconiconicon{
+  border: 1px solid black;
+  width: 5%;
+  height: 10vh;
+  background-image: url("D:\Atom Files\CSS\fb.png");
+  position: absolute;
+  left: 60%;
+  border-radius: 50px;
+  bottom: 3%;
+}
+/*
+
+/********************************************************SECOND START***********************************************************/
+
+.middle{
+  border: 1px solid black;
+      height: 120vh;
+      background-color: #white;
+      position: relative;
+}
+
+.cont{
+  position: absolute;
+    left: 40%;
+    top: 5%;
+    font-size: 80px;
+    margin-top: 0;
+}
+
+.cont2{
+  position: absolute;
+    left: 40%;
+    top: 15%;
+    font-size: 20px;
+}
+
+.self{
+  height: 30%;
+    position: absolute;
+    left: 20%;
+    top: 7%;
+
+}
+ html
+
+
+
+ <!DOCTYPE html>
+   <head>
+     <meta charset="utf-8">
+     <title>mew</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap" rel="stylesheet">
+   </head>
+   <link rel="stylesheet" href="designing.css">
+   <link rel="icon" href="favicon.ico">
+
+   <body>
+     <div class="top">
+         <div class="head1">
+           <h1>Hi, I'm Sneha!</h1>
+           <p class="h3">a sophomore at BPIT, IP University(CSE Branch).</p>
+
+             <div class="icons">
+               <p class="social">Say Hello (っ＾▿＾)~~</p>
+                 <img class="abc"src="chidiya.png" alt="">
+                 <img class="abc" src="insta.png" alt="">
+                 <img class="abc"src="fb.png" alt="">
+             </div>
+
+         </div>
+     </div>
+     <div class="middle">
+         <img class="self" src="online.png" alt="meamoir">
+         <p class="cont">Bio <br></p>
+         <p class="cont2"> I am an 18 year old student, currently unemployed. I've always loved trying new things but wasn't sure of my path so,
+         I'm trying to learn as much as I can  in a short span of time. Blah Blah Blah Blah Blah </p>
+
+     </div>
+   </body>
+ </html>
