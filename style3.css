@@ -1,0 +1,60 @@
+body{
+  background-color: #FFC0D3;
+}
+
+.homepage{
+  height: 80vh;
+  width:100%;
+  background-image: url("https://s3.wp.wsu.edu/uploads/sites/2797/2021/03/janko-ferlic-pGlq8NKUto-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/*
+.woman{
+  height: 80vh;
+  width: 100%;
+}
+*/
+
+.quote{
+  position: relative;
+    text-align: center;
+    color: white;
+    top: 50%;
+    font-size: 850%;
+    font-family: 'Seaweed Script', cursive;
+}
+
+.About{
+  height:80vh;
+  width: 100%;
+
+}
+
+.contact{
+  height: 20vh;
+  width: 100%;
+  background-color: black;
+}
+
+.written{
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Abyssinica SIL', serif;
+  color: #850E35;
+  font-size: 150%;
+}
+
+.one{
+  color: white;
+  font-size: 150%;
+  padding-left: 5%;
+
+}
+
+.two{
+  color: white;
+  padding-left: 6%;
+}
