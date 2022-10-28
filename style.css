@@ -1,31 +1,92 @@
 body {
-    background: #1f2129;
+    background-color: white;
 }
 
-@font-face {
-    font-family: myFont;
-    src: url(./fonts/digital-7.ttf);
-}
-
-.clock {
+.view {
     display: flex;
-    align-items: center;
+    flex-direction: column; 
     justify-content: center;
-    background: #151618;
-    position: absolute;
-    top: 50px;
-    left: 1000px;
-    transform: translate(-50%) translate(-50%);
-    color: #17d4fe;
-    font-size: 60px;
-    font-family: myFont;
-    letter-spacing: 7px;
-    padding: 2rem 4rem;
-    border-radius: 20px;
-    width: 400px;
-    height: 100px;
-    border-radius: 38px;
-    background: #30323b;
-    box-shadow: inset 5px 5px 21px #131418,
-        inset -5px -5px 21px #4d505e;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.google {
+    display: flex;
+    flex-direction: row;
+}
+
+.search {
+    border-radius: 200px;
+    height: 40px;
+    width: 460px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    color: grey;
+    font-size: 15px;
+    border: none;
+}
+
+.box {
+    box-shadow: 1px 1px 1px 1px rgb(193, 191, 191);
+    border-radius: 200px;
+    border: none;
+}
+
+.box :hover {
+    border: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: right;
+    color: grey;
+    font-size: 92%;
+}
+
+.magnifier {
+    margin: 2px;
+    margin-left: 25px;
+    margin-top: 13px;
+    margin-bottom: 0;
+    height: 15px;
+    width: 15px;
+}
+
+.mic {
+    margin-right: 15px;
+    margin-top: 7px;
+    height: 19px;
+    width: 19px;
+}
+
+.g {
+    font-size: 550%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(51, 118, 242);
+    margin-bottom: 40px;
+}
+.o1 {
+    font-size: 550%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: red;
+    margin-bottom: 40px;
+}
+.o2 {
+    font-size: 550%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(239, 243, 8);
+    margin-bottom: 40px;
+}
+.l {
+    font-size: 550%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: green;
+    margin-bottom: 40px;
 }
